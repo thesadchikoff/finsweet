@@ -13,7 +13,7 @@ const ChooseCategory = () => {
         </h1>
         <div className={'flex desktop:flex-row mobile:flex-col gap-[32px] justify-between'}>
         <ChooseBlock logo={business} label={'Start Up'} content={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'}/>
-        <ChooseBlock logo={startup} label={'Start Up'} content={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'}/>
+        <ChooseBlock logo={technology} label={'Start Up'} content={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'}/>
         <ChooseBlock logo={economy} label={'Start Up'} content={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'}/>
         <ChooseBlock logo={technology} label={'Start Up'} content={'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'}/>
         </div>
