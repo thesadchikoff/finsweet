@@ -17,7 +17,7 @@ const WelcomeSection = () => {
   }, [])
   console.log(user.name)
   return (
-    <section className=' flex bg-image w-full h-screen overlay relative desktop:px-[80px] mobile:px-[10px] m-auto flex-col mobile:pt-[100px] desktop:justify-center'>
+    <section className=' flex bg-image w-full h-screen overlay relative desktop:px-[80px] mobile:px-[30px] m-auto flex-col mobile:pt-[100px] desktop:justify-center'>
       <Image src={backgroundImage} className={'full-image mobile:h-screen w-full z-0 absolute left-0 top-0 object-cover object-center'} />
         <div className='flex flex-col gap-[24px] text-white z-[1000]'>
           <h3  className='text-[16px] uppercase'>Posted on <b>startup</b></h3>
