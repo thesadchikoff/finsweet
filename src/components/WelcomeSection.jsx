@@ -8,7 +8,7 @@ const WelcomeSection = () => {
   const [user, setUser] = React.useState('')
 
   React.useEffect(() => {
-    fetch('http://localhost:3000/api/hello', {
+    fetch('https://finsweet-three.vercel.app/api/hello', {
       method:'GET',
       headers: {
         'Content-Type': 'application/json'
